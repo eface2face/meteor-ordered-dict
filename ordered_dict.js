@@ -1,4 +1,5 @@
 var _ = require("lodash");
+var OrderedDict;
 // This file defines an ordered dictionary abstraction that is useful for
 // maintaining a dataset backed by observeChanges.  It supports ordering items
 // by specifying the item they now come before.
