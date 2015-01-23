@@ -1,4 +1,4 @@
-module.export = function(Meteor) {
+module.exports = function(Meteor) {
   var _ = Meteor.underscore;
   var OrderedDict;
 // This file defines an ordered dictionary abstraction that is useful for
